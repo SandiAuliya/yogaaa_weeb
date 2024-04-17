@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <h1>ASTARA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#product">PRODUCT</a></li>
+                <li><a href="#callus">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+        <!-- Judul -->
+
+    <div class="title">
+        <h1>BEST ELECTRONIC <br>E-Groceries</h1>
+        <br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<p>
+    </div>
+
+
+    <!-- Main -->
+    <div id="home" class="Konten1">
+        <!-- FOTO -->
+        <div class="wrapper">
+            <i id="left" class="fas fa-angle-left"></i>
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img src="logo.png" alt=""></div>
+                    <h2>Aman</h2>
+                    <span>Kelistrikan yang aman membuat hidup lebih tenang</span> 
+                </li>
+                <li class="card">
+                    <div class="img"><img src="bedroom.png" alt=""></div>
+                    <h2>Nyaman</h2>
+                    <span>Hidup tanpa rasa khawatir di kondisi apapun</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="smarthome.png" alt=""></div>
+                    <h2>Smarthome</h2>
+                    <span>Mengontrol keadaan rumah dimanapun    </span>
+                </li>
+            </ul>
+            <i id="right" class="fas fa-angle-right"></i>
+        </div>
+        <form>
+            <h3>Contact US</h3>
+            <p>kirim kontak kalian supaya kita <br> tahu apa yang dibutuhkan</p>
+            <br>
+
+            <label for="Yourname" id="input-nama">Nama</label>
+            <input placeholder="Yourname" type="text" name="nama" id="nama"><br>
+            <br>
+
+            <label for="text">Email</label>
+            <input placeholder="Youremail" type="text" id="email"><br>
+            <br>
+
+            <label for="text">Keperluan</label>
+            <select name="option" id="option">
+                <option value="option">Bisnis</option>
+                <option value="option">Rumah Pibadi</option>
+                <option value="option">Keperluan Lain</option>
+            </select>
+            <br><br>
+            
+            <div>
+                <button type="button" id="btn" onclick="validateForm()">send</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+
+
+<!-- Our Package -->
+    <div id="product" class="konten2">
+        <H1>PAKET PEMESANAN KAMI</H1>
+    </div>
+
+<!-- PACKAGE LIST -->
+    <div class="Konten 3">
+        <div class="isi1">
+            <div class="paket1">
+                <a href="">
+                <H3>Toilet Set</H3>
+                <p>Perlengkapan Kelistrikan Toilet dengan Lengkap</p>
+                </a>
+                
+                <a href="">
+                <h3>Ruang Tamu</h3>
+                <p>Perlengkapan Kelistrikan dengan lampu yang modern dan minimalis</p>
+                </a>
+
+                <a href="">
+                <h3>Taman Bermain</h3>
+                <p>Paket ini sangat cocok untuk kalian yang ingin setingan lampu yang bisa menemani siang atau malam </p>
+                </a>
+            </div>
+            <div class="paket2">
+                <a href="">
+                <h3>Kamar Tidur</h3>
+                <p>Penerangan yang bisa bisa mempengaruhi waktu tidur seseorang</p>
+                </a>
+
+                <a href="">
+                <h3>Restoran</h3>
+                <p>Kami juga siap untuk melakukan lanskap kelistrikan untuk sebuah restoran</p>
+                </a>
+
+                <a href="">
+                <h3>Paket Lengkap</h3>
+                <p>Kita bisa membantu untuk mengatur semua kelistrikan yang diperlukan <br> di dalam sebuah rumah</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="callus" class="moto">
+        <h2>MOTO KAMI</h2>
+        <P>kami selalu melayani pelanggan dengan baik, jadi ketika pelanggan ada masalah silahkan klik berikut</P>
+        <div class="btn-footer">
+            <button>Hubungi kami</button>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Moq</h1>
+        <p>Term Of Service </p>
+        <p>Privacy Policy - 2029</p>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
